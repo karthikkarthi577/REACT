@@ -11,6 +11,7 @@ const SearchApi = () => {
     setState(fetch.data);
   }, []);
 
+  
   let handleSubmit = () => {
     let filterData = state.filter((x) => {
       if (x.name.toLowerCase().includes(form.toLowerCase())) {
