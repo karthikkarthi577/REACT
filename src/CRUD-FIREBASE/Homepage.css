@@ -1,0 +1,73 @@
+.formhomeget,.formhomeedit{
+    background-color: #efefefef;
+    height: 100px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px 2px green;
+
+}
+
+.formhomeedit{
+    box-shadow: 0px 0px 4px 2px rgb(0, 66, 128);
+   
+}
+.formhomeedit p{
+    text-align: center;
+}
+.formhomeedit button{
+    background-color:rgb(0, 66, 128) ;
+    padding: 5px;
+}
+.containerdiv{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+}
+
+button{
+   background-color: green;
+   padding: 2px;
+   margin-top: 9px;
+   color: white;
+   border: none;
+   padding: 5px;
+}
+label{
+    width: 100px;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+.getData{
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 500px;
+  
+   
+}
+.SingleDataCard{
+    border: 1px solid teal;
+    width: 90%;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+.update{
+    background-color: teal;
+    padding: 2px;
+    font-weight: bold;
+    margin-right: 5px;
+    padding: 3px;
+}
+.delete{
+    background-color: red;
+    padding: 2px;
+    font-weight: bold;
+    margin-right: 5px;
+    padding: 3px;
+}
